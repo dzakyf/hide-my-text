@@ -1,0 +1,24 @@
+:root {
+    --main-width-split-box : 200px;
+    --main-height-split-box : 200px;
+    --main-font-size: 24pt;
+    --main-font-color: rgb(119, 25, 119);
+    --main-input-shade: rgb(209, 128, 209);
+
+    font-size: var(--main-font-size);
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    gap: 1fr;
+}
+
+.container textarea{
+    width: 400px;
+}
+
+
+
+
